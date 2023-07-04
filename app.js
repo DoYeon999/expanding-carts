@@ -10,9 +10,7 @@ for (let i = 0; i < panels.length; i++) {
         removeAllActive();
         panels[i].classList.add('active')   //클래스 active 추가
     })   //function(){} >> 함수이되 이름이 없는 일회용 함수
-
 }
-
 
 function removeAllActive() {
     for (let i = 0; i < panels.length; i++) {
